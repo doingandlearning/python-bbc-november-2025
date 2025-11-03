@@ -14,10 +14,14 @@ print(my_favourite_number) # str -> string
 print(type(my_favourite_number))
 
 
-my_favourite_number = True   # False
+my_favourite_number = True   # False is the other possible value
 print(my_favourite_number) # bool -> boolean   (my_favourite_number > 10)
 print(type(my_favourite_number))
 
 my_favourite_number = None
 print(my_favourite_number) # NoneType  (null, undefined, void)
 print(type(my_favourite_number))
+
+
+user_name = None
+print(user_name)
