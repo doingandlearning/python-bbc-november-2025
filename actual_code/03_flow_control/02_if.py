@@ -2,7 +2,10 @@
 This is not going to do anything! Just a note :) 
 == -> is equal to
 != -> not equal to
-<, >, <=, >=  -> inequalities
+<  -> less than
+>  -> greater than
+<= -> less than or equal
+>=  -> inequalities
 """
 number_input = int(input("Give me a whole number: "))
 
@@ -12,3 +15,4 @@ else:
   print("I think you meant 42.")
 
 print("End of program.")
+

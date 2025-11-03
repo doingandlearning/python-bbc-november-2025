@@ -5,4 +5,6 @@ print(f"Hello {user_name}")
 favourite_number = input("What is your favourite number? ")
 favourite_number = int(favourite_number)
 
+favourite_number = favourite_number + 1
+
 print(f"One more than your favourite number is {favourite_number + 1}")
