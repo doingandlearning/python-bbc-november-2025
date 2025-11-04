@@ -42,3 +42,7 @@ print(more_names)
 
 # Olamide
 print(more_names[2][1])
+
+for names in more_names:
+  for name in names:
+    print(name)
