@@ -18,4 +18,18 @@ def get_readings_from_user():
     readings.append(reading)
   return readings
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 print(get_readings_from_user())
+# DRY - Don't Repeat Yourself  - Rule of 3

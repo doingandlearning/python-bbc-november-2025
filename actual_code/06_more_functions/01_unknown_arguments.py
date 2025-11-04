@@ -4,10 +4,11 @@ def add(a, b, c=0, d=0):
 # def add_three_numbers(a,b,c):
 #   return a + b + c
 
-def add(*numbers):  # ...
+def add(*numbers):  # ... spread 
   total = 0
   for n in numbers:
-    total += n
+    total = total + n
+    # total += n
   return total
 
 # def input():

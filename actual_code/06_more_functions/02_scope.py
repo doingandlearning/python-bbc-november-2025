@@ -15,5 +15,5 @@ print(f"Count outside the function (and after the call) {count}")
 
 # 1. Functions can read variables outside themselves!
 # 2. 'Shadowing' is when a variable in a function gets priority over the version 
-# of the same variable outside the function.
+# of the same variable name outside the function.
 # 3. Variables created inside a function can't be accessed outside!

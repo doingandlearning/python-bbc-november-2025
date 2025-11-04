@@ -8,7 +8,7 @@ for number in number_list:
 
 print(doubled_numbers)
 
-doubled_numbers = [(number * 2, number * 3) for number in number_list 
+doubled_numbers = [number * 2 for number in number_list 
                               if number < 7
                   ] # List Comprehension
 print(doubled_numbers)  # Map   x -> y
