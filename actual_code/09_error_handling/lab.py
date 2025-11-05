@@ -10,10 +10,17 @@ print("You have 5 tries to guess it!")
 player_won = False
 attempts = 0
 
+def get_valid_value():
+  while True:
+    try:
+      guess = int(input("Enter your guess (1-50): "))
+      return guess
+    except ValueError:
+      print("Whoops! You tried to enter something that wasn't a number.")
+
 while attempts < 5:
   print(f"Attempt {attempts +1 }")
-  guess = int(input("Enter your guess (1-50): "))
-
+  guess = get_valid_value()
   if guess == secret_channel:
     print("🍻 Well done! You got it!")
     player_won = True
