@@ -1,6 +1,6 @@
 # Create a virtual environment
 
-- VS Code
+- VS Code (Python: Create environment ... -> venv -> select python version)
 - python -m venv .venv
 
 # Install any packages you need
