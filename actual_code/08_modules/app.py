@@ -22,4 +22,5 @@ square = Shape("square")
 
 print("From app.py:")
 print(f"__name__ -> {__name__}")
+print(u.__name__)
 
