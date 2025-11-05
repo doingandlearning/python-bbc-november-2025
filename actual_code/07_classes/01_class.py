@@ -7,5 +7,7 @@
 # methods/behaviours
 
 print(type(3))
+number = 3
+
 print(type("Hello"))
 print(type(True))

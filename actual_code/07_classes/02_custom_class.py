@@ -49,3 +49,5 @@ user4.introduce_self()
 
 print(user3.is_weekend("Monday"))
 print(user4.is_weekend("Saturday"))
+
+str()
