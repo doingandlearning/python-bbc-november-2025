@@ -15,5 +15,11 @@ class Shape:
 
 default_shape = Shape("circle")
 
-print("Welcome to the utils module!")
-printer(default_shape)
+def main():
+  print("Welcome to the utils module!")
+  printer(default_shape)
+  print(f"__name__ -> {__name__}")
+  print("*=*" * 10)
+
+if __name__ == "__main__": # stand alone code should be in here!
+  main()
