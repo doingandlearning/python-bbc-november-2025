@@ -23,3 +23,5 @@ def main():
 
 if __name__ == "__main__": # stand alone code should be in here!
   main()
+
+import requests
