@@ -20,6 +20,7 @@ def test_two_whole_numbers_add_together_correctly():
 # Edge cases -> decimals, negatives, big numbers, small numbers 
 def test_two_decimals_add_correctly():
   assert add(0.1, 0.2) == pytest.approx(0.3)
+  assert round(add(0.1, 0.2),1) == 0.3
 
 @pytest.mark.parametrize('a, b, expected', [
     (0.01, 0.01, 0.02),
