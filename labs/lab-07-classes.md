@@ -22,6 +22,27 @@ A **class** is a blueprint for creating objects that bundle data (attributes) wi
 
 ---
 
+## Starter code 
+
+This covers step 1 and hopefully will give you a head start!
+
+<details>
+  <summary>Starter code</summary>
+```python
+class Headline:
+    def __init__(self, text, source):
+        self.text = text
+        self.source = source
+
+h = Headline(
+    "General election: Labour and Tories clash over tax",
+    "BBC News"
+)
+```
+</details>
+
+---
+
 ## **Step 1: Defining the `Headline` Class**
 
 ### **Tasks**
