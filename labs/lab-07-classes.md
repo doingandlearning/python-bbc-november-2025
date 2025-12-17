@@ -8,20 +8,6 @@ The aim of this lab is to create a `Headline` class to hold not just the text of
 
 ---
 
-## **What are Classes?**
-
-A **class** is a blueprint for creating objects that bundle data (attributes) with functions (methods) that act on that data. Think of it as a template that defines what an object should look like and what it can do.
-
-### **Key Concepts**
-
-- **Class**: The blueprint/template for objects
-- **Object**: An instance created from a class
-- **Attributes**: Data stored in the object
-- **Methods**: Functions that belong to the object
-- **Constructor**: Special method that initializes new objects
-
----
-
 ## Starter code 
 
 This covers step 1 and hopefully will give you a head start!
