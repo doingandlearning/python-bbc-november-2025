@@ -28,6 +28,7 @@ This covers step 1 and hopefully will give you a head start!
 
 <details>
   <summary>Starter code</summary>
+  
 ```python
 class Headline:
     def __init__(self, text, source):
@@ -39,6 +40,7 @@ h = Headline(
     "BBC News"
 )
 ```
+
 </details>
 
 ---
