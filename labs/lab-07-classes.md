@@ -93,6 +93,21 @@ h = Headline(
 - Consider using an f-string to format the output clearly
 - Think about what information would be most helpful when debugging
 
+<details>
+  <summary>Possible solution</summary>
+
+```python
+## Add this inside your class
+def __str__(self):
+    return f"{self.text} ({self.source})"
+
+# Now it should print well
+print(h)
+
+```
+
+</details>
+
 ### **Expected Outcomes**
 
 - Printing a `Headline` object should show readable information
@@ -124,6 +139,21 @@ h = Headline(
 - Now it uses the object's own data: `self.text`
 - The method should `return len(self.text.split())`
 - Think about how this method relates to the object's data
+
+<details>
+  <summary>Possible solution</summary>
+
+```python
+## Add this inside your class
+def get_word_count(self):
+    return len(self.text.split())
+
+# The rule lives with the data
+print(h.get_word_count())
+
+```
+
+</details>
 
 ### **Expected Outcomes**
 
