@@ -171,7 +171,7 @@ print(h.get_word_count())
 
 ---
 
-## **Step 4: Refactoring Your Code to Use the Class**
+## **Step 4: Refactoring Your Code to Use the Class** (Optional/Extension/After the course)
 
 ### **Tasks**
 
